@@ -1,7 +1,25 @@
 aid: ampaire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ampaire.png
 name: Ampaire
-description: Ampaire is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ampaire is a Long Beach, California electric aviation company that develops
+  hybrid-electric propulsion systems for aircraft. Its AmpDrive powertrain retrofits
+  and powers regional aircraft, and the company reports more than 30,000 flight miles
+  with a stated goal of cutting fuel consumption, maintenance costs, and noise. Ampaire
+  is backed by Techstars and has worked with partners including NASA and ARPA-E. The
+  company currently exposes no public API, developer portal, or documentation surface;
+  this profile is maintained in the API Evangelist network as a company record awaiting
+  any future developer program.
 url: https://raw.githubusercontent.com/api-evangelist/ampaire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +32,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Aviation
+- Aerospace
+- Electric Aircraft
+- Hybrid-Electric
+- Sustainability
+- Clean Technology
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://ampaire.com/
+- type: PrivacyPolicy
+  url: https://www.ampaire.com/privacypolicy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
